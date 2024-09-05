@@ -1,6 +1,6 @@
 <?php
      require 'config.php';
-    
+     $sql = file_get_contents('file.sql');
      session_start();
      ?>
 <!DOCTYPE html>

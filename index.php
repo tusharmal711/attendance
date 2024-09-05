@@ -1,4 +1,5 @@
 <?php
+$sql = file_get_contents('file.sql');
  require 'config.php';
 ?>
 <?php

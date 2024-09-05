@@ -4,6 +4,7 @@ session_start();
 ?>
 <?php
 require 'config.php';
+$sql = file_get_contents('file.sql');
 $_SESSION["id"]=1;
 $sessionId=$_SESSION['id'];
 $eml=$_SESSION["uemail"];
